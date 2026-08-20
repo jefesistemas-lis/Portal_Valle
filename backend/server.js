@@ -29,92 +29,35 @@ const pillars = [
     formats: {
       title: 'FORMATOS DILIGENCIAMIENTO DE HERRAMIENTAS - PLANTA VALLE',
       items: [
-        {
-          label: 'PREOPERACIONAL - HERRAMIENTAS DE VERTIMIENTO',
-          url: 'https://forms.gle/itN3NmHB8u2ky3ea6',
-        },
-        {
-          label: 'PREOPERACIONAL - COMPRESOR',
-          url: 'https://forms.gle/4tHZtysF79LMutzy6',
-        },
-        {
-          label: 'LISTA DE CHEQUEO PRE-OPERACIONAL DE LA CARRETA MANUAL',
-          url: 'https://forms.gle/3niiGTZ8B1d7gTbMA',
-        },
-        {
-          label: 'CHEQUEO PRE-OPERACIONAL DE LA CIZALLA',
-          url: 'https://forms.gle/vVP6roxiLcZB6DiG7',
-        },
-        {
-          label: 'CHEQUEO PRE-OPERACIONAL DE LA ESCALERA',
-          url: 'https://forms.gle/pBJgaWJWfA9vc5g2A',
-        },
-        {
-          label: 'LISTA DE CHEQUEO PRE-OPERACIONAL RAMPA DE ACCESO A VEHÍCULO',
-          url: 'https://forms.gle/4AYqGCLaBgUR2TZK8',
-        },
-        {
-          label: 'LISTA DE CHEQUEO PRE-OPERACIONAL DEL TOPELLANTAS',
-          url: 'https://forms.gle/74rjBfZAMRraF9Qi8',
-        },
-        {
-          label: 'INSPECCIÓN DE ELEMENTOS DE PROTECCIÓN PERSONAL',
-          url: 'https://forms.gle/wU4jvdzGMygkMVvd6',
-        },
-        {
-          label: 'INSPECCION DE GNV',
-          url: 'https://forms.gle/pwNq1MHW8gQ9iXrk7',
-        },
-        {
-          label: 'VISITAS AL AREA DE ESTIBAS',
-          url: 'https://forms.gle/gZHYUkXUvXiDcB2c8',
-        },
-        {
-          label: 'LISTA DE CHEQUEO PISTOLA NEUMATICA',
-          url: 'https://forms.gle/HjzqQvpuD9GKePmQA',
-        },
-        {
-          label: 'INSPECCION DE EQUIPOS PARA ATENCION A EMERGENCIAS',
-          url: 'https://forms.gle/m7JjvgNpdhNcmFtY7',
-        },
-        {
-          label: 'INSPECCION GENERAL - SEGURIDAD Y SALUD EN EL TRABAJO',
-          url: 'https://forms.gle/hena37bUBYAUFeDK6',
-        },
-        {
-          label: 'LISTA DE CHEQUEO DE HERRAMIENTAS MANUALES FIXING',
-          url: 'https://forms.gle/MkW1Sa1H49MUgDVx8',
-        },
-        {
-          label: 'LISTA DE CHEQUEO PREOPERACIONAL DE LA HIDROLAVADORA',
-          url: 'https://forms.gle/qRfLrx2TrBLyg7Sk7',
-        },
-        {
-          label: 'LISTA DE CHEQUEO HERRAMIENTAS MANUALES',
-          url: 'https://forms.gle/SCYPpU37V2aXVorQA',
-        },
+        { label: 'PREOPERACIONAL - HERRAMIENTAS DE VERTIMIENTO', url: 'https://forms.gle/itN3NmHB8u2ky3ea6' },
+        { label: 'PREOPERACIONAL - COMPRESOR', url: 'https://forms.gle/4tHZtysF79LMutzy6' },
+        { label: 'LISTA DE CHEQUEO PRE-OPERACIONAL DE LA CARRETA MANUAL', url: 'https://forms.gle/3niiGTZ8B1d7gTbMA' },
+        { label: 'CHEQUEO PRE-OPERACIONAL DE LA CIZALLA', url: 'https://forms.gle/vVP6roxiLcZB6DiG7' },
+        { label: 'CHEQUEO PRE-OPERACIONAL DE LA ESCALERA', url: 'https://forms.gle/pBJgaWJWfA9vc5g2A' },
+        { label: 'LISTA DE CHEQUEO PRE-OPERACIONAL RAMPA DE ACCESO A VEHÍCULO', url: 'https://forms.gle/4AYqGCLaBgUR2TZK8' },
+        { label: 'LISTA DE CHEQUEO PRE-OPERACIONAL DEL TOPELLANTAS', url: 'https://forms.gle/74rjBfZAMRraF9Qi8' },
+        { label: 'INSPECCIÓN DE ELEMENTOS DE PROTECCIÓN PERSONAL', url: 'https://forms.gle/wU4jvdzGMygkMVvd6' },
+        { label: 'INSPECCION DE GNV', url: 'https://forms.gle/pwNq1MHW8gQ9iXrk7' },
+        { label: 'VISITAS AL AREA DE ESTIBAS', url: 'https://forms.gle/gZHYUkXUvXiDcB2c8' },
+        { label: 'LISTA DE CHEQUEO PISTOLA NEUMATICA', url: 'https://forms.gle/HjzqQvpuD9GKePmQA' },
+        { label: 'INSPECCION DE EQUIPOS PARA ATENCION A EMERGENCIAS', url: 'https://forms.gle/m7JjvgNpdhNcmFtY7' },
+        { label: 'INSPECCION GENERAL - SEGURIDAD Y SALUD EN EL TRABAJO', url: 'https://forms.gle/hena37bUBYAUFeDK6' },
+        { label: 'LISTA DE CHEQUEO DE HERRAMIENTAS MANUALES FIXING', url: 'https://forms.gle/MkW1Sa1H49MUgDVx8' },
+        { label: 'LISTA DE CHEQUEO PREOPERACIONAL DE LA HIDROLAVADORA', url: 'https://forms.gle/qRfLrx2TrBLyg7Sk7' },
+        { label: 'LISTA DE CHEQUEO HERRAMIENTAS MANUALES', url: 'https://forms.gle/SCYPpU37V2aXVorQA' },
       ],
     },
     programs: {
       title: 'PROGRAMAS DE SEGURIDAD',
       items: [
-        {
-          label: 'DESARROLLO SEGUIMIENTO DTOS',
-          url: 'https://script.google.com/a/macros/lis.com.co/s/AKfycbyk0xQzUtNmeeShTsX8Y_ZE2T5Lao9_0ks52sTzwh2AaGy4vrjjI1BAzLZEdLLu6rOd/exec',
-        },
-        {
-          label: 'SEGUIMIENTO CAPACITACIONES',
-          url: 'https://script.google.com/a/macros/lis.com.co/s/AKfycby09kLrazTj9RCk1knaiP-e8dkE1BMap85zvpFsUiAVd22isDQpe1x7gSVyH0fJBHST/exec',
-        },
+        { label: 'DESARROLLO SEGUIMIENTO DTOS', url: 'https://script.google.com/a/macros/lis.com.co/s/AKfycbyk0xQzUtNmeeShTsX8Y_ZE2T5Lao9_0ks52sTzwh2AaGy4vrjjI1BAzLZEdLLu6rOd/exec' },
+        { label: 'SEGUIMIENTO CAPACITACIONES', url: 'https://script.google.com/a/macros/lis.com.co/s/AKfycby09kLrazTj9RCk1knaiP-e8dkE1BMap85zvpFsUiAVd22isDQpe1x7gSVyH0fJBHST/exec' },
       ],
     },
     visuals: {
       title: 'VISUALES DE MONITOREO INTEGRAL DE RIESGOS Y HÁBITOS SEGUROS',
       items: [
-        {
-          label: 'MONITOREO INTEGRAL',
-          url: 'https://app.powerbi.com/view?r=eyJrIjoiZDQwNDk0YWUtNDNhMy00YjFjLTk2YjQtNGM2YTZhZDEyNmM1IiwidCI6IjI0MWQ1MTkyLTA2ZGYtNGQ4OS05N2NiLTE0NTMxYmJjYWI3MSIsImMiOjR9',
-        },
+        { label: 'MONITOREO INTEGRAL', url: 'https://app.powerbi.com/view?r=eyJrIjoiZDQwNDk0YWUtNDNhMy00YjFjLTk2YjQtNGM2YTZhZDEyNmM1IiwidCI6IjI0MWQ1MTkyLTA2ZGYtNGQ4OS05N2NiLTE0NTMxYmJjYWI3MSIsImMiOjR9' },
       ],
     },
     notes: [],
@@ -194,10 +137,12 @@ const getPillarById = (id) => pillars.find((item) => item.id === id);
 
 app.set('trust proxy', 1);
 app.disable('x-powered-by');
+
 app.use(helmet({
   contentSecurityPolicy: false,
   crossOriginEmbedderPolicy: false,
 }));
+
 app.use((req, res, next) => {
   const origin = req.get('origin');
   if (origin && allowedOrigins.includes(origin)) {
@@ -211,10 +156,11 @@ app.use((req, res, next) => {
   }
   next();
 });
+
 app.use((req, res, next) => {
   res.setHeader(
     'Content-Security-Policy',
-    "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' http://localhost:3000 http://127.0.0.1:3000;"
+    "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https: http:;"
   );
   res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
   res.setHeader('X-Content-Type-Options', 'nosniff');
@@ -222,10 +168,12 @@ app.use((req, res, next) => {
   res.setHeader('X-XSS-Protection', '1; mode=block');
   next();
 });
+
 app.use(limiter);
 app.use(express.json({ limit: '10kb' }));
 app.use(express.urlencoded({ extended: false, limit: '10kb' }));
 
+// Rutas de API
 app.get('/api/pillars', (req, res) => {
   res.json(pillars.map(({ notes, ...rest }) => rest));
 });
@@ -259,6 +207,11 @@ app.post('/api/pillars/:id/notes', (req, res) => {
   res.status(201).json({ message: 'Nota agregada', note });
 });
 
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok', uptime: process.uptime() });
+});
+
+// Servir estáticos en producción y fallback para React (SPA)
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(publicDir, { maxAge: '1d', immutable: true }));
   app.get('*', (req, res) => {
@@ -266,10 +219,7 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-app.get('/health', (req, res) => {
-  res.json({ status: 'ok', uptime: process.uptime() });
-});
-
-app.listen(PORT, () => {
-  console.log(`Portal Valle backend escuchando en http://localhost:${PORT}`);
+// Iniciar servidor escuchando en 0.0.0.0
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Portal Valle backend escuchando en el puerto ${PORT}`);
 });
