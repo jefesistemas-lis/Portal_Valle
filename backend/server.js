@@ -114,6 +114,12 @@ const pillars = [
     description: 'Define indicadores, revisa rutinas diarias y alinea planes estratégicos a mediano plazo.',
     metrics: ['KPIs cumplidos', 'Revisiones diarias', 'Proyectos de mejora'],
     module: 'Planeación estratégica',
+    programs: {
+      title: 'DASHBOARDS DE GESTIÓN',
+      items: [
+        { label: 'Dashboard Layout ABC - Planta Valle', url: 'https://script.google.com/a/macros/lis.com.co/s/AKfycbwqbCO8y_X6Ncnw6gfdj-01qI1WwfGl_6JXo4llVvVsG4fx1JeiAjcR0asw7xW8edP1wQ/exec' },
+      ],
+    },
     notes: [],
   },
 ];
